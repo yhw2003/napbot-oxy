@@ -1,0 +1,6 @@
+# https://github.com/NapNeko/NapCatDocs.git
+.agent/NapCatDocs
+node_modules
+dist
+.env
+src/const.ts
