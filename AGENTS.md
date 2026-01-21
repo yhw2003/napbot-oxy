@@ -16,3 +16,6 @@ Api类型定义应该使用zod进行校验。
 ### 主要依赖：
 
 [NapCat](https://github.com/NapNeko/NapCatQQ) 文档位于./agent/NapCatDocs文件夹，本项目通过http-sse链接到NapCat。./agent/NapCatDocs/api-list.md是openai风格的所以api的文档。
+
+### 关于环境
+如果你需要调用node/npm等nodejs工具，你应该使用fnm exec
