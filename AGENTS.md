@@ -1,4 +1,4 @@
-You should use utf8-encoding when reading files.
+You should use utf-8 encoding when reading files.
 
 # AGENTS
 
