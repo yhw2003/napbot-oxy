@@ -4,3 +4,4 @@ node_modules
 dist
 .env
 src/const.ts
+src/generated/*

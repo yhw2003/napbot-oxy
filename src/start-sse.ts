@@ -6,7 +6,7 @@ import { MsgInfoSchema } from "./api/type-wrapper/msg";
 import { SSEHandle } from "./api/handle/sse-handle";
 
 export async function startSSEListen(handle: SSEHandle): Promise<void> {
-  console.log("Connecting SSE via POST /_events ...");
+  console.log("Connecting SSE via GET /_events ...");
 
   const res: AxiosResponse<Readable> = await apiCaller.get("/_events", {
     responseType: "stream",
